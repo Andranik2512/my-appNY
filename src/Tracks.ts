@@ -1,6 +1,7 @@
 export type Track = {
     title: string
     url: string
+    isSelected?: boolean
 }
 
 export const tracks: Track [] = [
@@ -11,6 +12,8 @@ export const tracks: Track [] = [
     {
       title: 'music2',
       url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+      isSelected: true,
+    
     },
     {
       title: 'music2',
